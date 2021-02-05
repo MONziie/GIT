@@ -1,2 +1,2 @@
 # GIT
-aome notes
+some notes
