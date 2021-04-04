@@ -127,13 +127,13 @@ window电脑里查找一个文件：
 
 ------------------------------------------------------------------------------------------------------------
 #### STEP1:
-<p> 1.github提交代码受SSH限制，先要获取SSH授权
-windows git desktop安装后自带SSH，验证：git bash---输入ssh
-2.生成密钥
-在 Git Bash 中输入命令ssh-keygen -t rsa，使用 rsa 算法生成密钥。
-id_rsa 是密钥，id_rsa.pub 是公钥，文件存储在默认目录下C:\用户\.ssh
-3. 在github上添加SSH KEY
-把 id_rsa.pub 中的内容复制到 GitHub 上的 Add SSH Keys 文本框中。
+<p> 1.github提交代码受SSH限制，先要获取SSH授权</p>
+<p> windows git desktop安装后自带SSH，验证：git bash---输入ssh</p>
+<p> 2.生成密钥</p>
+<p> 在 Git Bash 中输入命令ssh-keygen -t rsa，使用 rsa 算法生成密钥。
+id_rsa 是密钥，id_rsa.pub 是公钥，文件存储在默认目录下C:\用户\.ssh</p>
+<p> 3. 在github上添加SSH KEY
+把 id_rsa.pub 中的内容复制到 GitHub 上的 Add SSH Keys 文本框中。</p>
 
 
 #### STEP2:
